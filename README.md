@@ -9,7 +9,7 @@ Hashtags of social media posts contain information on the context of the posts. 
 The dataset contains two JSON files. Although they are generated from different crowdsourcing interface, the two files have the identical structure.
 Each mapping is represented as a JSON object with the following structure:
 
-```json
+```js
 {
   "1": {             // Unique ID for each tag
     "text": "beach", // Text of each hashtag. Is is possible that the same tag occurs multiple times by different annotators. .
